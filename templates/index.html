@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWEETS</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <p>Elon Musk has tweeted about {{ coin }} {{ tweets }} times in his last 2000 tweets (includes replies)</p>
+    <p>Last updated {{ time }}</p>
+
+    <div style="display: flex; flex: 2;">
+        {% for item in embed %}
+            {{ item | safe  }}
+        {% endfor %}
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.row {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex !important;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
