@@ -4,7 +4,7 @@ import requests
 import json
 
 
-header = { 'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAAF1tOgEAAAAA25hxqrkARehLPHKc2a2G83ZOgHQ%3Da1nxk2LJNzjf4pIeERsPsK7lW2RnXf2rvQ8bMn4EiDKftPc4M7'}
+header = { 'Authorization': ''}
 
 
 url = []
